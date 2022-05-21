@@ -620,7 +620,7 @@ This bot helps you to play music, to search music from youtube and to download m
     )
 
 @Client.on_callback_query(filters.regex("makeown"))
-async def cbabout(_, query: CallbackQuery):
+async def cbmakeown(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""**Make Your Own Bot 💡**
 
